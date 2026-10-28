@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* Sample B, the feature story: Instrument Serif headlines, Newsreader text, IBM Plex Mono
+   kickers, black ink on off-white with one red. */
+@theme {
+  --color-canvas: #fbfaf7;
+  --color-surface: #ffffff;
+  --color-ink: #141414;
+  --color-subtle: #6f6a64;
+  --color-line: #e6e3de;
+  --color-accent: #d6452f;
+  --color-accent-soft: #fbe4de;
+  --color-agent: #46509b;
+  --color-agent-soft: #e6e7f4;
+  --color-human: #9a5a16;
+  --color-human-soft: #f6ead9;
+  --color-live: #2f9e5b;
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-sans: "Newsreader", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The two type styles the chapters repeat: the red mono label and the serif subhead. */
+@utility kicker {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+@utility subhead {
+  font-family: var(--font-display);
+  font-size: 32px;
+  line-height: 1.08;
+}
+
+/* Fades a block out as it leaves the top of the screen, tied to the scroll. Browsers without
+   scroll-driven animations, and people who prefer reduced motion, just see the page as is. */
+@utility scroll-fade {
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      animation: scroll-fade linear both;
+      animation-timeline: view();
+      animation-range: exit 0% exit 100%;
+    }
+  }
+}
+
+@keyframes scroll-fade {
+  to {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+}
+
+/* Steps of the product path appear one after another. */
+@utility step-in {
+  @media (prefers-reduced-motion: no-preference) {
+    animation: step-in 0.6s ease-out both;
+  }
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
