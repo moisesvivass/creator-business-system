@@ -13,7 +13,7 @@ export const story: StoryText = {
     punch: "I wanted something I could keep asking.",
   },
   after: [
-    "That's when the dashboard became a system. It wasn't failing; it had become too small. Today one database holds every video, every platform it reached, every product in it and every store link, Amazon included, and it keeps the media kit up to date on its own. I open the project with Claude and ask: what worked this week, which video is missing its links, how Pinterest compares to Instagram. The answer comes back live, and the next question starts from there.",
+    "That's when the dashboard became a system. It wasn't failing; it had become too small. Today one database holds every video, every platform it reached, every product in it and every affiliate link, Amazon included, and it keeps the media kit up to date on its own. I open the project with Claude and ask: what worked this week, which video is missing its links, how Pinterest compares to Instagram. The answer comes back live, and the next question starts from there.",
   ],
 };
 
@@ -52,7 +52,7 @@ export const drawers: Drawer[] = [
       {
         name: "Products",
         tech: "affiliate_catalog",
-        holds: "Every product and its store link",
+        holds: "Every product and its affiliate link",
       },
       {
         name: "AI product lists",

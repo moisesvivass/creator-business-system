@@ -17,7 +17,7 @@ export const es: Copy = {
       titleBefore: "El sistema",
       titleEm: "detrás",
       titleAfter: "del negocio de una creadora",
-      lede: "Una creadora graba. Detrás de ella, un sistema guarda cada video, lo lleva a cada plataforma, convierte sus productos en links de tienda y me avisa cuando algo necesita una decisión.",
+      lede: "Una creadora de contenido graba. Un sistema se encarga de todo lo que rodea al video: mide cómo le va, encuentra los productos, arma los links de afiliado, prepara las respuestas y me avisa cuando algo necesita una decisión.",
       aside:
         "Lo construí con Claude Code, a partir de un dashboard que terminó mutando en un sistema con sus propias reglas. Cada número de esta página es inventado.",
       signature: "— Moises Vivas, Toronto",
@@ -55,7 +55,7 @@ export const es: Copy = {
         ready: "El flujo de BLUSH está listo",
         summary: [
           "3 productos encontrados",
-          "Cada link de tienda abierto y revisado",
+          "Cada link de afiliado abierto y revisado",
           "DM redactado, palabra clave BLUSH",
           "Short y 2 pins en borrador",
         ],
@@ -125,7 +125,7 @@ export const es: Copy = {
       punch: "Yo quería algo a lo que pudiera seguir preguntándole.",
     },
     after: [
-      "Ahí el dashboard se volvió un sistema. No estaba fallando; se había quedado chico. Hoy una base de datos guarda cada video, cada plataforma donde salió, cada producto que muestra y cada link de tienda, Amazon incluido, y mantiene el media kit al día sola. Abro el proyecto con Claude y pregunto: qué funcionó esta semana, a qué video le faltan los links, cómo va Pinterest contra Instagram. La respuesta llega en vivo, y la siguiente pregunta parte de ahí.",
+      "Ahí el dashboard se volvió un sistema. No estaba fallando; se había quedado chico. Hoy una base de datos guarda cada video, cada plataforma donde salió, cada producto que muestra y cada link de afiliado, Amazon incluido, y mantiene el media kit al día sola. Abro el proyecto con Claude y pregunto: qué funcionó esta semana, a qué video le faltan los links, cómo va Pinterest contra Instagram. La respuesta llega en vivo, y la siguiente pregunta parte de ahí.",
     ],
   },
 
@@ -144,7 +144,7 @@ export const es: Copy = {
     },
     {
       actor: "agent",
-      title: "Va a cada plataforma",
+      title: "Borradores para otras plataformas",
       detail:
         "El mismo video queda en borrador como Short de YouTube y pins de Pinterest, cada uno reescrito para cómo se busca ahí.",
     },
@@ -152,7 +152,7 @@ export const es: Copy = {
       actor: "human",
       title: "Se detiene por mi decisión",
       detail:
-        "Los links de tienda quedan armados y revisados, y el mensaje redactado. Recibo un resumen, lo reviso y presiono Start. Nada sale sin mí.",
+        "Los links de afiliado quedan armados y revisados, y el mensaje redactado. Recibo un resumen, lo reviso y presiono Start. Nada sale sin mí.",
     },
     {
       actor: "system",
@@ -196,7 +196,7 @@ export const es: Copy = {
         {
           name: "Productos",
           tech: "affiliate_catalog",
-          holds: "Cada producto y su link de tienda",
+          holds: "Cada producto y su link de afiliado",
         },
         {
           name: "Listas de la AI",

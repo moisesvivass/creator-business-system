@@ -27,7 +27,7 @@ export const stages: Stage[] = [
   },
   {
     actor: "agent",
-    title: "It goes to every platform",
+    title: "Drafted for other platforms",
     detail:
       "The same video is drafted as a YouTube Short and Pinterest pins, each rewritten for how people search there.",
   },
@@ -35,7 +35,7 @@ export const stages: Stage[] = [
     actor: "human",
     title: "It stops for my decision",
     detail:
-      "The store links are built and checked and the message is drafted. I get one summary, review it and press Start. Nothing goes out without me.",
+      "The affiliate links are built and checked and the message is drafted. I get one summary, review it and press Start. Nothing goes out without me.",
   },
   {
     actor: "system",

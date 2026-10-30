@@ -17,7 +17,7 @@ const ui = {
     titleBefore: "The system",
     titleEm: "behind",
     titleAfter: "a creator's business",
-    lede: "A creator films. Behind her, a system records every video, sends it to every platform, turns its products into store links and alerts me when something needs a decision.",
+    lede: "A content creator films. A system handles everything around the video: it tracks how it performs, finds the products in it, builds the affiliate links, prepares the replies and tells me when something needs a decision.",
     aside:
       "I built it with Claude Code, starting from a dashboard that ended up turning into a system with its own rules. Every number on this page is invented.",
     signature: "— Moises Vivas, Toronto",
@@ -55,7 +55,7 @@ const ui = {
       ready: "Flow for BLUSH is ready",
       summary: [
         "3 products found",
-        "Every store link opened and checked",
+        "Every affiliate link opened and checked",
         "DM drafted, keyword BLUSH",
         "Short and 2 pins drafted",
       ],
