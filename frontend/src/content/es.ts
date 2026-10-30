@@ -29,7 +29,6 @@ export const es: Copy = {
       kicker: "La historia",
       title: "Cómo llegué aquí",
       intro: "En mis palabras, como quien lo construyó.",
-      turningPoint: "El punto de giro",
     },
     system: {
       kicker: "El sistema",
@@ -116,15 +115,9 @@ export const es: Copy = {
   },
 
   story: {
-    before: [
+    paragraphs: [
       "Siempre fui quien lee los insights: el alcance, los guardados, el post que despegó y el que no. Trabajando con una creadora de belleza, me di cuenta de que la app te muestra los números de a un post, pero no te deja guardarlos, compararlos ni cruzarlos con nada más. La API de Instagram sí. Así que saqué los datos y armé mi propio dashboard con Claude Code. En parte para entender la cuenta. En parte para ver hasta dónde podía llegar.",
       "Llegó más lejos de lo que esperaba. Comparando post tras post, el análisis apuntaba siempre a los mismos pocos formatos. La cuenta se apoyó en ellos, los números se movieron y algunos videos llegaron a millones de vistas.",
-    ],
-    quote: {
-      lead: "Un dashboard te muestra lo que pensaste en preguntar.",
-      punch: "Yo quería algo a lo que pudiera seguir preguntándole.",
-    },
-    after: [
       "Ahí el dashboard se volvió un sistema. No estaba fallando; se había quedado chico. Hoy una base de datos guarda cada video, cada plataforma donde salió, cada producto que muestra y cada link de afiliado, Amazon incluido, y mantiene el media kit al día sola. Abro el proyecto con Claude y pregunto: qué funcionó esta semana, a qué video le faltan los links, cómo va Pinterest contra Instagram. La respuesta llega en vivo, y la siguiente pregunta parte de ahí.",
     ],
   },

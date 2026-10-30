@@ -31,11 +31,9 @@ export interface Alert {
   body: string;
 }
 
-/** The story in a few paragraphs, with one pull quote at the turning point. */
+/** The story in a few paragraphs. */
 export interface StoryText {
-  before: string[];
-  quote: { lead: string; punch: string };
-  after: string[];
+  paragraphs: string[];
 }
 
 /** A question asked of the database: the answer, the tables it read and a few facts. */

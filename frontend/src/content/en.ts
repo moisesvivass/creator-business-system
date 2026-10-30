@@ -29,7 +29,6 @@ const ui = {
     kicker: "The story",
     title: "How I got here",
     intro: "In my own words, as the person who built it.",
-    turningPoint: "The turning point",
   },
   system: {
     kicker: "The system",

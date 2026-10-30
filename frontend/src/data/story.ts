@@ -4,15 +4,9 @@
 import type { Check, Drawer, ProductPath, Store, StoryText } from "@/types";
 
 export const story: StoryText = {
-  before: [
+  paragraphs: [
     "I've always been the person who reads the insights: the reach, the saves, the post that took off and the one that didn't. Working with a beauty creator, I noticed the app shows you the numbers one post at a time, but doesn't let you keep them, compare them or cross them with anything else. Instagram's API does. So I pulled the data out and built my own dashboard with Claude Code. Partly to understand the account. Partly to see how far I could take it.",
     "It took me further than I expected. Comparing post after post, the analysis kept pointing at the same few formats. The account leaned into them, the numbers moved, and some videos reached millions of views.",
-  ],
-  quote: {
-    lead: "A dashboard shows you what you thought to ask.",
-    punch: "I wanted something I could keep asking.",
-  },
-  after: [
     "That's when the dashboard became a system. It wasn't failing; it had become too small. Today one database holds every video, every platform it reached, every product in it and every affiliate link, Amazon included, and it keeps the media kit up to date on its own. I open the project with Claude and ask: what worked this week, which video is missing its links, how Pinterest compares to Instagram. The answer comes back live, and the next question starts from there.",
   ],
 };
