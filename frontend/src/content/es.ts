@@ -4,7 +4,7 @@ import type { Copy } from "./index";
 
 export const es: Copy = {
   ui: {
-    pageTitle: "Creator Business System: demo",
+    pageTitle: "Creator Business System",
     brand: "Creator Business System",
     nav: {
       story: "Historia",

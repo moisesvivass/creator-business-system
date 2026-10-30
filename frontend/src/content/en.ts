@@ -4,7 +4,7 @@ import { alerts, askExamples, jobs, kitNotes, stages } from "@/data/mockData";
 import { checks, drawers, productPaths, stores, story } from "@/data/story";
 
 const ui = {
-  pageTitle: "Creator Business System: demo",
+  pageTitle: "Creator Business System",
   brand: "Creator Business System",
   nav: {
     story: "Story",
